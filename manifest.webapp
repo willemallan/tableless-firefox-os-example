@@ -1,0 +1,34 @@
+{
+    "version": "0.1",
+    "name": "Tableless Firefox OS Example",
+    "description": "Tableless Firefox OS Example",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/imgs/icons/tableless16.png",
+        "48": "/imgs/icons/tableless48.png",
+        "128": "/imgs/icons/tableless128.png"
+    },
+    "developer": {
+        "name": "Willem Allan",
+        "url": "http://willemallan.com.br"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "es": {
+            "description": "Willem Allan",
+            "developer": {
+                "url": "http://willemallan.com.br"
+            }
+        },
+        "it": {
+            "description": "Willem Allan",
+            "developer": {
+                "url": "http://willemallan.com.br"
+            }
+        }
+    },
+    "default_locale": "en",
+    "permissions": {
+        "systemXHR": {}
+    }
+}
