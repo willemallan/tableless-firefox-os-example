@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Desenvolvendo para Firefox OS : Example application Firefox OS - Tableless" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Desenvolvendo para Firefox OS</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/willemallan/tableless-firefox-os-example">View on GitHub</a>
+
+          <h1 id="project_title">Desenvolvendo para Firefox OS</h1>
+          <h2 id="project_tagline">Example application Firefox OS - Tableless</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/willemallan/tableless-firefox-os-example/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/willemallan/tableless-firefox-os-example/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Introdução</h3>
+
+<p>Firefox OS é novo sistema operacional movel desenvolvido para Mozilla.
+Para nos desenvolvedores web ficou fácil criar aplicativos para aparelhos
+mobile, pois para desenvolver é utilizado HTML5, CSS e JAVASCRIPT.</p>
+
+<p>Para testar seus aplicativos não precisa ter um smartphone com Firefox OS,
+basta baixar a extensão (Firefox OS Simulator) no Firefox disponivel em
+Windows, Linux e MAC OS X.</p>
+
+<h3>Colocando em pratica</h3>
+
+<p>Primeiro passo é instalar a extensão Firefox OS Simulator em seu Firefox.</p>
+
+<p>Firefox OS Simulator - links para Download
+Windows - <a href="https://addons.mozilla.org/firefox/downloads/file/190978/firefox_os_simulator-2.0-fx-windows.xpi">https://addons.mozilla.org/firefox/downloads/file/190978/firefox_os_simulator-2.0-fx-windows.xpi</a>
+Linux - <a href="https://addons.mozilla.org/firefox/downloads/file/190986/firefox_os_simulator-2.0-fx-linux.xpi">https://addons.mozilla.org/firefox/downloads/file/190986/firefox_os_simulator-2.0-fx-linux.xpi</a>
+Mac OS X - <a href="https://addons.mozilla.org/firefox/downloads/file/190998/firefox_os_simulator-2.0-fx-mac.xpi">https://addons.mozilla.org/firefox/downloads/file/190998/firefox_os_simulator-2.0-fx-mac.xpi</a></p>
+
+<h3>Iniciando Firefox OS Simulator</h3>
+
+<p>Para abrir o Firefox OS Simulator procure a aba
+Ferramentas &gt; Desenvolvedor web &gt; Firefox OS Simulator. Uma aba sera aberta
+com as informações do Firefox OS Simulator. Nesta aba você pode desligar e
+ligar o emulador e nela também é adicionado os aplicativos que serão
+instalados no emulador assim que iniciado. Para adicionar seus aplicativos
+pasta clicar em Add diretory e localizar a pasta em que você desenvolveu seu
+aplicativo.</p>
+
+<h3>Criando uma aplicação para Firefox OS</h3>
+
+<p>Para iniciar, crie uma pasta do seu projeto onde ficaram os arquivos da sua aplicação. No meu caso willemallan. Dentro do diretório crie um arquivo manifest.webapp neste arquivo ficam as configurações do projeto, como: nome, autor, versão, icones e outros dados importantes do aplicativo. Veja abaixo o exemplo do arquivo manifest.webapp.</p>
+
+<pre><code>{
+    "version": "0.1",
+    "name": "Willem Allan",
+    "description": "Willem Allan - Blog posts",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/imgs/icons/wi16.png",
+        "48": "/imgs/icons/wi48.png",
+        "128": "/imgs/icons/wi128.png"
+    },
+    "developer": {
+        "name": "Willem Allan",
+        "url": "http://willemallan.com.br"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "es": {
+            "description": "Willem Allan - Blog posts",
+            "developer": {
+                "url": "http://willemallan.com.br"
+            }
+        },
+        "it": {
+            "description": "Willem Allan - Blog posts",
+            "developer": {
+                "url": "http://willemallan.com.br"
+            }
+        }
+    },
+    "default_locale": "en",
+    "permissions": {
+        "systemXHR": {}
+    }
+}
+</code></pre>
+
+<p>Analisando o código acima, pode ser visualizado que possuem locais para definir a versão do aplicativo, nome e descrição. Logo após, repare que launch_path aponta para /index.html, que é o primeiro arquivo que irá ser carregado quando o aplicativo for iniciado. Pode ser defino também os icones em diversos tamanhos em icons. Por ultimo temos opções para os dados do desenvolvedor que também pode ser definido em outros idiomas.</p>
+
+<h3>Mão na massa</h3>
+
+<p>Para iniciar crie um diretório da sua aplicação e em seguida crie um arquivo index.html e utilize o arquivo citado acima manifest.webapp alterando as configurações do seu projeto.</p>
+
+<p>Então ficará assim uma pasta nome_projeto e dentro os arquivos index.html e manifest.webapp.</p>
+
+<p>Adicione um texto qualquer no arquivo index.html, pode ser o famoso hello world!!!</p>
+
+<pre><code>&lt;h1&gt;hello world!!! Primeira aplicação Firefox OS&lt;/h1&gt;
+</code></pre>
+
+<p>Para testar a aplicação é preciso ir na extensão do Firefox OS Simulator, Bashboard e adicionar a pasta do projeto "add directory", depois inicie o emulador a aplicação será instalada e aparecerá nos aplicativos.</p>
+
+<p>github - exemplo de aplicação do Firefox OS: <a href="https://github.com/willemallan/tableless-firefox-os-example">https://github.com/willemallan/tableless-firefox-os-example</a></p>
+
+<h3>Saiba mais</h3>
+
+<p>Firefox OS Quick Start - <a href="https://marketplace.firefox.com/developers/docs/quick_start">https://marketplace.firefox.com/developers/docs/quick_start</a>
+Desenvolva para Firefox OS sem um smartphone - <a href="https://marketplace.firefox.com/developers/docs/firefox_os_simulator">https://marketplace.firefox.com/developers/docs/firefox_os_simulator</a>
+Aplicativos de exemplo - <a href="https://marketplace.firefox.com/developers/docs/reference_apps">https://marketplace.firefox.com/developers/docs/reference_apps</a>
+Disponibilizando um aplicativo no Mozilla Marketplace - <a href="https://developer.mozilla.org/pt-BR/docs/Apps/Submitting_an_app">https://developer.mozilla.org/pt-BR/docs/Apps/Submitting_an_app</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Desenvolvendo para Firefox OS maintained by <a href="https://github.com/willemallan">willemallan</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
