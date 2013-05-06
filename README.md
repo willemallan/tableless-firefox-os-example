@@ -79,7 +79,7 @@ Então ficará assim uma pasta nome_projeto e dentro os arquivos index.html e ma
 
 Adicione um texto qualquer no arquivo index.html, pode ser o famoso hello world!!!
 
-    hello world!!! Primeira aplicação Firefox OS</h1>
+    <h1>hello world!!! Primeira aplicação Firefox OS</h1>
 
 
 Para testar a aplicação é preciso ir na extensão do Firefox OS Simulator, Bashboard e adicionar a pasta do projeto "add directory", depois inicie o emulador a aplicação será instalada e aparecerá nos aplicativos.
