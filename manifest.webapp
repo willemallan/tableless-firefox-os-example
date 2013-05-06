@@ -6,7 +6,7 @@
     "icons": {
         "16": "/imgs/icons/tableless16.png",
         "48": "/imgs/icons/tableless48.png",
-        "64": "/imgs/icons/tableless64.png"
+        "128": "/imgs/icons/tableless64.png"
     },
     "developer": {
         "name": "Willem Allan",
@@ -27,8 +27,5 @@
             }
         }
     },
-    "default_locale": "en",
-    "permissions": {
-        "systemXHR": {}
-    }
+    "default_locale": "en"
 }
