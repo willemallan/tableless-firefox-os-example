@@ -84,12 +84,16 @@ Adicione um texto qualquer no arquivo index.html, pode ser o famoso hello world!
 
 Para testar a aplicação é preciso ir na extensão do Firefox OS Simulator, Bashboard e adicionar a pasta do projeto "add directory", depois inicie o emulador a aplicação será instalada e aparecerá nos aplicativos.
 
-github - exemplo de aplicação do Firefox OS: <a href="https://github.com/willemallan/tableless-firefox-os-example"  target="_blank">link</a>
-github page - <a href="http://willemallan.github.io/tableless-firefox-os-example/"  target="_blank">link</a>
+<ul>
+    <li>github - exemplo de aplicação do Firefox OS: <a href="https://github.com/willemallan/tableless-firefox-os-example"  target="_blank">link</a></li>
+    <li>github page - <a href="http://willemallan.github.io/tableless-firefox-os-example/"  target="_blank">link</a></li>
+</ul>
 
 <h2>Saiba mais</h2>
 
-Firefox OS Quick Start - https://marketplace.firefox.com/developers/docs/quick_start
-Desenvolva para Firefox OS sem um smartphone - https://marketplace.firefox.com/developers/docs/firefox_os_simulator
-Aplicativos de exemplo - https://marketplace.firefox.com/developers/docs/reference_apps
-Disponibilizando um aplicativo no Mozilla Marketplace - https://developer.mozilla.org/pt-BR/docs/Apps/Submitting_an_app
+<ul>
+    <li>Firefox OS Quick Start - https://marketplace.firefox.com/developers/docs/quick_start</li>
+    <li>Desenvolva para Firefox OS sem um smartphone - https://marketplace.firefox.com/developers/docs/firefox_os_simulator</li>
+    <li>Aplicativos de exemplo - https://marketplace.firefox.com/developers/docs/reference_apps</li>
+    <li>Disponibilizando um aplicativo no Mozilla Marketplace - https://developer.mozilla.org/pt-BR/docs/Apps/Submitting_an_app</li>
+</ul>
