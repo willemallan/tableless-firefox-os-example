@@ -19,9 +19,12 @@ Windows, Linux e MAC OS X.
 Primeiro passo é instalar a extensão Firefox OS Simulator em seu Firefox.
 
 Firefox OS Simulator - links para Download
-Windows - https://addons.mozilla.org/firefox/downloads/file/190978/firefox_os_simulator-2.0-fx-windows.xpi
-Linux - https://addons.mozilla.org/firefox/downloads/file/190986/firefox_os_simulator-2.0-fx-linux.xpi
-Mac OS X - https://addons.mozilla.org/firefox/downloads/file/190998/firefox_os_simulator-2.0-fx-mac.xpi
+
+<ul>
+    <li>Windows - <a target="_blank" href="https://addons.mozilla.org/firefox/downloads/file/190978/firefox_os_simulator-2.0-fx-windows.xpi">download</a>
+    <li>Linux - <a target="_blank" href="https://addons.mozilla.org/firefox/downloads/file/190986/firefox_os_simulator-2.0-fx-linux.xpi">download</a>
+    <li>Mac OS X - <a target="_blank" href="https://addons.mozilla.org/firefox/downloads/file/190998/firefox_os_simulator-2.0-fx-mac.xpi">download</a>
+</ul>
 
 <h2>Iniciando Firefox OS Simulator</h2>
 
@@ -86,14 +89,14 @@ Para testar a aplicação é preciso ir na extensão do Firefox OS Simulator, Ba
 
 <ul>
     <li>github - exemplo de aplicação do Firefox OS: <a href="https://github.com/willemallan/tableless-firefox-os-example"  target="_blank">link</a></li>
-    <li>github page - <a href="http://willemallan.github.io/tableless-firefox-os-example/"  target="_blank">link</a></li>
+    <li>github page - <a href="http://willemallan.github.io/tableless-firefox-os-example/" target="_blank">link</a></li>
 </ul>
 
 <h2>Saiba mais</h2>
 
 <ul>
-    <li>Firefox OS Quick Start - https://marketplace.firefox.com/developers/docs/quick_start</li>
-    <li>Desenvolva para Firefox OS sem um smartphone - https://marketplace.firefox.com/developers/docs/firefox_os_simulator</li>
-    <li>Aplicativos de exemplo - https://marketplace.firefox.com/developers/docs/reference_apps</li>
-    <li>Disponibilizando um aplicativo no Mozilla Marketplace - https://developer.mozilla.org/pt-BR/docs/Apps/Submitting_an_app</li>
+    <li>Firefox OS Quick Start - <a target="_blank" href="https://marketplace.firefox.com/developers/docs/quick_start">link</a></li>
+    <li>Desenvolva para Firefox OS sem um smartphone - <a target="_blank" href="https://marketplace.firefox.com/developers/docs/firefox_os_simulator">link</a></li>
+    <li>Aplicativos de exemplo - <a target="_blank" href="https://marketplace.firefox.com/developers/docs/reference_apps">link</a></li>
+    <li>Disponibilizando um aplicativo no Mozilla Marketplace - <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Apps/Submitting_an_app">link</a></li>
 </ul>
