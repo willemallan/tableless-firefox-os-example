@@ -89,7 +89,7 @@ Para testar a aplicação é preciso ir na extensão do Firefox OS Simulator, Ba
 
 <ul>
     <li>github - exemplo de aplicação do Firefox OS: <a href="https://github.com/willemallan/tableless-firefox-os-example"  target="_blank">link</a></li>
-    <li>github page - <a href="http://willemallan.github.io/tableless-firefox-os-example/" target="_blank">link</a></li>
+    <li>github page - exemplo de aplicação do Firefox OS: <a href="http://willemallan.github.io/tableless-firefox-os-example/" target="_blank">link</a></li>
 </ul>
 
 <h2>Saiba mais</h2>
