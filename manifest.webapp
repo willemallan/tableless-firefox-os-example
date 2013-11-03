@@ -1,12 +1,12 @@
 {
     "version": "0.1",
-    "name": "Tableless Firefox OS Example",
-    "description": "Tableless Firefox OS Example",
+    "name": "Bolha",
+    "description": "Bolha",
     "launch_path": "/index.html",
     "icons": {
-        "16": "/imgs/icons/tableless16.png",
-        "48": "/imgs/icons/tableless48.png",
-        "128": "/imgs/icons/tableless64.png"
+        "16": "/imgs/icons/16.png",
+        "48": "/imgs/icons/48.png",
+        "128": "/imgs/icons/64.png"
     },
     "developer": {
         "name": "Willem Allan",

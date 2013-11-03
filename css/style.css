@@ -1,5 +1,21 @@
 body{
-    background-color: #292929;
-    color: #FFFFFF;
-    font: 200 0.78em 'Lato',Arial,Verdana,Sans-serif;
+}
+ul li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background: blue;
+    float: left;
+    border-radius: 20px 20px 20px 20px;
+    margin: 4px;
+}
+
+.clicado {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background: red;
+    float: left;
+    border-radius: 20px 20px 20px 20px;
+    margin: 4px;
 }
